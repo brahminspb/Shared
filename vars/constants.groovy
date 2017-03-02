@@ -8,6 +8,6 @@ class constants implements Serializable {
         url
     }
     def fullUrl() {
-        echo "Full url is http:, ${url}!"
+        "Full url is http:, ${url}!"
     }
 }
