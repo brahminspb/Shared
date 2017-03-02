@@ -1,9 +1,7 @@
-node {
-echo("Shared Library");
-stages	{
-	stage('Init shared library')	{
-		echo ('Init shared library stage');
-		echo ('Init shared library stage end');
-	}
-}
+package org.antonb.shared;
+
+def init()
+{
+	echo ('Init shared library stage');
+	echo ('Init shared library stage end');	
 }
