@@ -7,7 +7,7 @@ class constants implements Serializable {
     def getUrl() {
         url
     }
-    def fullUrl(message) {
+    def fullUrl() {
         echo "Full url is http:, ${url}!"
     }
 }
